@@ -118,8 +118,8 @@ header {
 }
 
 .pizza-img {
-  width: 120px;
-  height: 120px;
+  width: 210px;
+  height: 210px;
   border-radius: 50%;
   cursor: pointer;
   transition: transform 0.3s;
