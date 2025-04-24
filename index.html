@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pizza Hut Clone | Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <!-- Add these lines in your <head> -->
+<link href="https://fonts.googleapis.com/css2?family=Garamond&family=Raleway:wght@400;700&family=Lobster&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Pizza Hut</div>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger">&#9776;</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Faint Background -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Craving Pizza?</h1>
+      <p>"Cravings whispered, hearts replied — pizza kissed by fire and pride."</p>
+      <a href="menu.html" class="btn-order">Explore Menu</a>
+    </div>
+  </section>
+
+  <!-- Scattered Pizza Images -->
+  <section class="scattered-pizzas">
+    <img src="pepperoni.jpeg" class="pizza-img" alt="Pepperoni" data-pizza="pepperoni" />
+    <img src="veggie.jpeg" class="pizza-img" alt="Veggie" data-pizza="veggie" />
+    <img src="bbq.jpeg" class="pizza-img" alt="BBQ" data-pizza="bbq" />
+    <img src="cheese.jpeg" class="pizza-img" alt="Cheese" data-pizza="cheese" />
+  </section>
+
+  <!-- Top Pizzas Section -->
+  <section class="top-pizzas">
+    <h2>Top Picks</h2>
+    <div class="pizza-cards">
+      <div class="card" data-pizza="pepperoni">
+        <img src="pepperoni.jpeg" alt="Pepperoni">
+        <h3>Pepperoni</h3>
+        <p>Spicy pepperoni and cheese overload.</p>
+      </div>
+      <div class="card" data-pizza="bbq">
+        <img src="bbq.jpeg" alt="BBQ Chicken">
+        <h3>BBQ Chicken</h3>
+        <p>Sweet and smoky grilled chicken.</p>
+      </div>
+      <div class="card" data-pizza="veggie">
+        <img src="veggie.jpeg" alt="Veggie">
+        <h3>Veggie Delight</h3>
+        <p>Loaded with fresh garden veggies.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; Pizza Hut  Crafted with ❤️ by Raghav Shelke</p>
+  </footer>
+</body>
+</html>

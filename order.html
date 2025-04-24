@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order Pizza | Pizza Hut Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <!-- Add these lines in your <head> -->
+<link href="https://fonts.googleapis.com/css2?family=Garamond&family=Raleway:wght@400;700&family=Lobster&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">Pizza Hut</div>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html" class="active">Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger">&#9776;</div>
+    </nav>
+  </header>
+
+  <section class="order-details">
+    <h1>Confirm Your Order</h1>
+    <div id="pizza-info"></div>
+  
+    <!-- Form container -->
+    <div class="form-container">
+      <form id="order-form">
+        <label for="size">Choose Size:</label>
+        <select id="size" required>
+          <option value="">Select</option>
+          <option>Small</option>
+          <option>Medium</option>
+          <option>Large</option>
+        </select>
+  
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="1" value="1" required />
+  
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" required />
+  
+        <label for="address">Delivery Address:</label>
+        <input type="text" id="address" required />
+  
+        <button type="submit">Confirm Order</button>
+      </form>
+    </div>
+  </section>  
+
+  <footer>
+    <p>&copy; Pizza Hut  Crafted with ❤️ by Raghav Shelke</p>
+  </footer>
+</body>
+</html>
